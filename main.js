@@ -88,16 +88,16 @@ lightblue.addEventListener("click", function () {
 
 function paint (event) {
     let element = event.target
-    let isCell = element.classList.contains('cell')
+    let isCell = element.classList.contains('cellls')
 
     if (isCell) 
     element.style.backgroundColor = current_color
 }
 
-container.addEventListener("mousedown", function() {
-    container.addEventListener("mousemove", paint)
+mesh.addEventListener("mousedown", function() {
+    mesh.addEventListener("mousemove", paint)
 })
 
-container.addEventListener('mouseup', function() {
-    container.removeEventListener('mousemove', paint)
+mesh.addEventListener('mouseup', function() {
+    mesh.removeEventListener('mousemove', paint)
 })
