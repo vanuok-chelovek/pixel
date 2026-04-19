@@ -1,0 +1,87 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cellls {
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+}
+
+.mesh {
+    display: grid;
+    grid-template-columns: repeat(8,50px);
+}
+
+.button1 {
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    border: solid black 1px;
+}
+
+.clearb {
+    margin-left: 51px;
+    margin-bottom: 20px;
+    
+}
+
+.blueb {
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    border: solid black 1px;
+}
+.green {
+    width: 50px;
+    height: 40px;
+    background-color: green;
+    border: solid black 1px;
+}
+.black {
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    border: solid black 1px;
+}
+.gray {
+    width: 50px;
+    height: 40px;
+    background-color: gray;
+    border: solid black 1px;
+}
+.orange {
+    width: 50px;
+    height: 40px;
+    background-color: orange;
+    border: solid black 1px;
+}
+.purple {
+    width: 50px;
+    height: 40px;
+    background-color: purple;
+    border: solid black 1px;
+}
+
+.pink {
+    width: 50px;
+    height: 40px;
+    background-color: pink;
+    border: solid black 1px;
+}
+.yellow {
+    width: 50px;
+    height: 40px;
+    background-color: yellow;
+    border: solid black 1px;
+}
+
+.lightblue {
+    width: 50px;
+    height: 40px;
+    background-color: lightblue;
+    border: solid black 1px;
+}
